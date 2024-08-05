@@ -1,11 +1,9 @@
 # asci-art
-
-## Objectives
 Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII.
 
-
-What we mean by a graphic representation using ASCII, is to write the string received using ASCII characters, as you can see in the example below:
-
+## Objectives
+Graphic representation using ASCII means to write the string received using ASCII characters, as you can see in the example below:
+###
 @@@@@@BB@@@@``^^``^^``@@BB$$@@BB$$
 @@%%$$$$^^^^WW&&8888&&^^""BBBB@@@@
 @@@@@@""WW8888&&WW888888WW``@@@@$$

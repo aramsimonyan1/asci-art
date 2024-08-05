@@ -21,6 +21,7 @@ $$``&&WW88&&88&&&&8888&&88WW88``$$
 @@@@@@^^888888&&88&&&&MM88^^BB$$$$
 @@@@@@BB````&&&&&&&&88""``BB@@BB$$
 $$@@$$$$$$$$``````````@@$$@@$$$$$$
+
 This project should handle an input with numbers, letters, spaces, special characters and \n.
 
 ## Instructions
@@ -64,16 +65,18 @@ Here is an example of ' ', '!' and '"'(one dot represents one space):
 ......
 
 ## Usage
-$ go run . "Hello\n"
- _    _          _   _          $
-| |  | |        | | | |         $
-| |__| |   ___  | | | |   ___   $
-|  __  |  / _ \ | | | |  / _ \  $
-| |  | | |  __/ | | | | | (_) | $
-|_|  |_|  \___| |_| |_|  \___/  $
-                                $
-                                $
-$
+
+###
+    $ go run . "Hello\n"
+     _    _          _   _          $
+    | |  | |        | | | |         $
+    | |__| |   ___  | | | |   ___   $
+    |  __  |  / _ \ | | | |  / _ \  $
+    | |  | | |  __/ | | | | | (_) | $
+    |_|  |_|  \___| |_| |_|  \___/  $
+                                    $
+                                    $
+    $
 
 
 $ go run . "hello"

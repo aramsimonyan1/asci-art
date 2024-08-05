@@ -8,18 +8,19 @@ import (
 )
 
 func main() {
-	// reading standard.txt and convert to array of lines
+	// Open the give file for reading. It returns a file object (readFile) and an error (err) if any.
 	readFile, err := os.Open("standard.txt")
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(err) // If there was an error, print the error message
 	}
+	// If the file was opened successfully, create a Scanner object (fileScanner) using bufio.NewScanner(readFile)
 	fileScanner := bufio.NewScanner(readFile)
-	fileScanner.Split(bufio.ScanLines)
-	var fileLines []string
-	for fileScanner.Scan() {
-		fileLines = append(fileLines, fileScanner.Text())
+	fileScanner.Split(bufio.ScanLines) // sets the scanner to split the input into lines
+	var fileLines []string             // Store the lines of the file in an empty slice of strings (fileLines)
+	for fileScanner.Scan() {           // loop with for fileScanner.Scan(), which reads the next line from the file using the scanner.
+		fileLines = append(fileLines, fileScanner.Text()) // fileScanner.Text() retrieves the current line as a string, and add the line to the fileLines slice
 	}
-	readFile.Close()
+	readFile.Close() // Close the file
 
 	// get argument as a string
 	if len(os.Args) < 2 {

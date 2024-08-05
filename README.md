@@ -156,7 +156,7 @@ Here is an example of ' ', '!' and '"'(one dot represents one space):
                                             $
 
 
-$ go run . "Hello\n\nThere"
+    $ go run . "Hello\n\nThere"
      _    _          _   _          $
     | |  | |        | | | |         $
     | |__| |   ___  | | | |   ___   $

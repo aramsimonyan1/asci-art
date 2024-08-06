@@ -1,5 +1,5 @@
 # asci-art
-Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII.
+Go program that processes text inputs as an argument and generates ASCII graphic representations of the string using predefined patterns.
 
 ## Objectives
 Graphic representation using ASCII means to write the string received using ASCII characters, as you can see in the example below:
